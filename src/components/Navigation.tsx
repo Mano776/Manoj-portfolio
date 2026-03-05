@@ -12,6 +12,7 @@ const Navigation = () => {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
+    { href: "/experience", label: "Experience" },
     { href: "/projects", label: "Projects" },
     { href: "/contact", label: "Contact" },
   ]
@@ -33,11 +34,10 @@ const Navigation = () => {
               <Link
                 key={item.href}
                 to={item.href}
-                className={`transition-colors duration-200 hover:text-primary ${
-                  isActive(item.href)
+                className={`transition-colors duration-200 hover:text-primary ${isActive(item.href)
                     ? "text-primary font-medium"
                     : "text-foreground/80"
-                }`}
+                  }`}
               >
                 {item.label}
               </Link>
@@ -77,11 +77,10 @@ const Navigation = () => {
                   key={item.href}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`transition-colors duration-200 hover:text-primary px-2 py-1 ${
-                    isActive(item.href)
+                  className={`transition-colors duration-200 hover:text-primary px-2 py-1 ${isActive(item.href)
                       ? "text-primary font-medium"
                       : "text-foreground/80"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </Link>
