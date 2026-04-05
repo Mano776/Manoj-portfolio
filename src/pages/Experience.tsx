@@ -9,7 +9,7 @@ const Experience = () => {
             id: 1,
             role: "MERN Stack Developer ",
             company: "Besant Technologies",
-            location: "chennai, TN",
+            location: "Chennai, TN",
             period: "2026 - Present",
             description: "Working on full-stack web applications using MongoDB, Express.js, React, and Node.js. Collaborating with senior developers to build scalable solutions.",
             skills: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
@@ -17,7 +17,7 @@ const Experience = () => {
         },
         {
             id: 2,
-            role: "Front-End Developer",
+            role: "Frontend Developer",
             company: "Self-Employed",
             location: "Remote",
             period: "2025 - 2026",
@@ -28,7 +28,7 @@ const Experience = () => {
         {
             id: 3,
             role: "Full Stack Developer",
-            company: "Accent Tech Soft",
+            company: "Accent Techno Soft (ATS)",
             location: "Coimbatore, TN",
             period: "June 2025 - July 2025",
             description: "Developed and maintained full-stack web applications using React, Node.js, Express, and MongoDB. Collaborated with the team to build scalable APIs and user-friendly interfaces styled with Tailwind CSS.",
@@ -40,13 +40,13 @@ const Experience = () => {
     const achievements = [
         {
             id: 1,
-            title: "FSWD course completion",
-            description: "Completed the Full Stack Web Development course with a focus on MERN stack technologies."
+            title: "FSWD Course Completion",
+            description: "Completed the Full Stack Web Development course at Accent Techno Soft (ATS) with a focus on MERN stack technologies."
         },
         {
             id: 2,
-            title: "python Course completion",
-            description: "I was complete the python programming course."
+            title: "Python Course Completion",
+            description: "Successfully completed Python programming, gaining a strong understanding of core concepts such as variables, data types, loops, functions, and object-oriented programming."
         }
     ]
 

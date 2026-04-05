@@ -19,7 +19,7 @@ const About = () => {
     {
       title: "Database Management",
       icon: <Database className="w-6 h-6 text-primary" />,
-      skills: ["MongoDB", "SQL", "PostgreSQL", "Mongoose"],
+      skills: ["MongoDB", "SQL", "PostgreSQL", "Firebase"],
       description: "Designing efficient data structures and scaling databases."
     }
   ]
@@ -27,7 +27,7 @@ const About = () => {
 
   const technologies = [
     "React", "JavaScript", "Node.js", "Express", "Python", "Django",
-    "MongoDB", "Git"
+    "MongoDB", "Git", "GitHub"
   ]
 
   return (
@@ -44,7 +44,7 @@ const About = () => {
             About <span className="bg-hero-gradient bg-clip-text text-transparent">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate developer focused on building clean, user-friendly, and functional digital experiences.
+            Passionate Developer focused on building clean, user-friendly, and functional digital experiences.
           </p>
         </div>
 

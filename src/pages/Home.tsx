@@ -34,8 +34,8 @@ const Home = () => {
               </Link>
               <Button variant="outline" size="lg" className="border-primary/20 hover:bg-primary/10">
                 <Download className="mr-2 h-4 w-4" />
-                <a href="/resume MERN.pdf" target="_blank" rel="noopener noreferrer" className="ml-2">
-                  Download Resume
+                <a href="/Manoj kumar P__B.Tech(IT)__MERN Stack__CGPA 7.65.pdf" target="_blank" rel="noopener noreferrer" className="ml-2">
+                  Download CV
                 </a>
               </Button>
             </div>
@@ -85,7 +85,7 @@ const Home = () => {
               <Card className="p-8 shadow-soft border-border/50 bg-card/50 backdrop-blur-sm">
                 <div className="grid grid-cols-2 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-primary mb-2">2+</div>
+                    <div className="text-3xl font-bold text-primary mb-2">5+</div>
                     <div className="text-sm text-muted-foreground">Projects Completed</div>
                   </div>
                   <div>

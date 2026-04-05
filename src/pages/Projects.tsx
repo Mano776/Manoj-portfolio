@@ -23,10 +23,28 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Centralized Database Management System (DBMS)",
+      title: "Centralized Database Management System (CDBMS)",
       description: "A high-performance centralized database management system focusing on data integrity, security, and seamless administration of distributed databases.",
       image: "DBMS.jpeg",
       technologies: ["Node.js", "Express", "MongoDB", "SQL"],
+      featured: false
+    },
+
+    {
+      id: 4,
+      title: "Online Voting System",
+      description: "A web-based voting system that allows authenticated users to vote securely, with real-time result updates and admin control for managing elections.",
+      image: "voting.jfif",
+      technologies: ["Node.js", "Express", "Firebase", "React", "Typescript"],
+      featured: false
+    },
+
+    {
+      id: 5,
+      title: "Personal Finance Management system",
+      description: "A personal finance management system that helps users track income, expenses, and savings efficiently. Includes features like budget planning, transaction categorization, and real-time financial insights to improve money management.",
+      image: "finance.jfif",
+      technologies: ["Node.js", "Express", "Firebase", "React", "Typescript"],
       featured: false
     },
 
